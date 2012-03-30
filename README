@@ -1,0 +1,13 @@
+Ruby Script that transforms an Joomla CSV Dump (table jos_content) posts into Dokuwiki-Posts
+and makes some rudimentary cleanup.
+
+Requirements:
+ - ruby
+ - sanitize
+
+Synopsis:
+  
+  joomla2dokuwiki.rb -i /path/to/csv.csv -o /out/put/dir
+
+that creates files with the title-alias from the joomla posts
+and an txt extension.
